@@ -1,0 +1,169 @@
+header {
+
+    background-color: #434fcf;
+    color: white;
+    text-align: center;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+
+
+
+}
+
+
+
+
+/* 
+.border {
+    border: 5px solid black;
+
+    border-radius: 20px;
+
+} */
+
+
+
+
+
+
+
+
+body {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #434fcf;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #CBF6E9;
+    padding-top: 20px;
+    /* Increases top space */
+    padding-bottom: 20px;
+    /* Increases bottom space */
+}
+
+.centered {
+    text-align: center;
+    margin-bottom: 60px;
+    color: black
+}
+
+.heading-text {
+    font-family: cursive;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+
+}
+
+
+
+.nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+
+}
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+.div-container {
+    display: flexbox;
+    /* Makes the container a flex container */
+    justify-content: space-around;
+    /* Puts space between the two images, pushing one to the left and one to the right */
+    align-items: center;
+    /* Vertically centers the images within the header */
+    padding: 50px;
+    /* Adds some space around the images */
+    background-color: #434fcf;
+    /* Optional: adds a background color */
+    font-family: cursive;
+}
+
+
+
+.full-width-img {
+    width: 100vw;
+}
+
+
+
+
+
+
+.video-container video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+
+.fixquotes-qotd {
+    text-align: center;
+    background: #1a1a2e;
+    color: #eee;
+    border-left-color: #ffd700;
+}
+
+.fixquotes-qotd-title {
+    color: #888;
+}
+
+.fixquotes-qotd-author a {
+    color: #ffd700;
+}
+
+
+
+
+
+/* .fixquotes-qotd {
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border: none;
+}
+
+.fixquotes-qotd blockquote::before {
+    content: '"';
+    font-size: 4rem;
+    color: #ddd;
+    line-height: 0;
+} */
